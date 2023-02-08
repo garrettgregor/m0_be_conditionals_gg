@@ -26,21 +26,27 @@ puts number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+puts number_teachers == "string_teachers".length
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+puts number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts number_students <= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts number_students <= 21
 # this should print: true
 
 
@@ -55,20 +61,29 @@ puts number_teachers < number_students
 
 puts 4 < 9
 #YOU DO: Explain.
+# Line 62 is comparing the integer 4 and 9 by asking the computer whether 4 is less than 9. We would expect an output of true from this line of code.
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# These two lines of code do two things: 1. it declares a variable, 'books', and gives that variable an integer value of 3; 2. then it asks whether the number 4 is less than the variable books, for which we would expect an output of false. 
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# Line 71 declares a variable called friends and gives that variable an integer value of 6.
+# Line 72 decalres a variable called siblings and gives that variable an integer value of 2.
+# line 73 asks the computer to compare whether the variable friends is less than the variable siblings, for which we would expect and output of false.
+
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# Line 80 declares a variable called attendees and gives it an integer value of 9
+# Line 81 declares a variable called meals and gives it an integer value of 8
+# Line 82 asks whether the number of attendees is not equal to the number of meals, for which we would expect and output of true.
 
 
 #-------------------
