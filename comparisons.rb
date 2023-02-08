@@ -106,15 +106,23 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+puts loves_to_play && loves_treats
 
 
 # Determine if the dog loves to play and loves the dog park
+puts loves_to_play && loves_dog_park
 
 
 # Determine if the dog loves to play or loves the dog park
+puts loves_to_play || loves_dog_park
 
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && is_puppy
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: For a second I hesitated on this question, because I thought, are we supposed to ask whether the puppy is younger than one? What is the age threshold of a puppy? But if we are to simply ask the computer whether the dog is a puppy without defining what that threshold is, using the variables already declared or asking via a new variable as I did, then we would expect and error to come back, which is what happened:
+    # Traceback (most recent call last):
+    # comparisons.rb:121:in `<main>': undefined local variable or method `is_puppy' for main:Object (NameError)
+    # garrettgregor@OneProtethemAll m0_be_conditionals_gg % 
+
