@@ -10,14 +10,14 @@
 puts "What's your number?"
 integer = gets.chomp.to_i
 
-    if  integer == 0
-        puts "#{integer}"
-        elsif integer % 3 == 0 && integer % 5 == 0
-                puts "Fizzbuzz"
-            elsif integer % 3 == 0
-                puts "Fizz"
-                elsif integer % 5 == 0
-                    puts "Buzz"
-                    else
-                        puts "#{integer}"
-    end
+if  integer == 0
+    puts "#{integer}"
+elsif integer % 3 == 0 && integer % 5 == 0
+    puts "Fizzbuzz"
+elsif integer % 3 == 0
+    puts "Fizz"
+elsif integer % 5 == 0
+    puts "Buzz"
+else
+    puts "#{integer}"
+end
